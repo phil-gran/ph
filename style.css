@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    }
+ 
+body {
+    background: url(image/background.avif) no-repeat center rgb(170, 226, 226);
+    background-size: cover;
+    background-blend-mode: screen;
+    height: 100vh;
+    width: 90vw;
+}
+nav {
+    display: flex;
+    width: 99vw;
+    height: 60px;
+    justify-content: center;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background: white;
+    width: 100vw;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(27, 126, 126);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+}
+
+nav ul li ul a {
+    padding: 12;
+    background: white;
+}
+
+nav ul li ul li a {
+    width: 160px;
+    text-align: left;
+    border-radius: 5px;
+    font-size:19px;
+}
+
+nav ul li a:hover {
+    background: none;
+    color: red;
+    transform: scale(1.15);
+    transition: all 0.5s ease;
+    background: none;
+}
+
+nav ul li ul a:hover {
+    background-color: none;
+    color: red;
+    border-radius: 5px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+.img {
+    padding: 18px;
+}
+
+/*home css*/
+.home-container{
+    display: flex;
+    height: 81vh;
+    width: 90vw;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home-content1{
+    background: white;
+    height: 350px;
+    width: 750px;
+    padding: 20px;
+    border: 3px solid rgb(27, 126, 126);
+}
+
+.home-content1 p{
+    padding-top: 10px;
+}
+
+.home-content1:hover{
+    transform: scale(1.05);
+    transition: all 1s ease;
+}
+
+.home-content2{
+    height: 350px;
+    width: 350px;
+    flex-grow: 0;
+    animation: video 3s ease;
+    transform: 1s ease;
+}
+
+.home-content2:hover{
+    transform: scale(1.05);
+    transition: all 1s ease;
+}
+
+.footer{
+    display: flex;
+    height: 50px;
+    width: 35vw;
+    margin: 10px;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    color: rgb(27, 126, 126);
+    font-size: 14px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: rgb(27, 126, 126);
+}
+
+
+/*calling team css*/
+.calling-container{
+    display: flex;
+    height: 100vh;
+    width: 98vw;
+    justify-content: center;
+}
+
+.calling-left{
+    height: fit-content;
+    width: 20vw;
+    background: white;
+    margin: 15px;
+    padding: 20px;
+    border: 3px solid rgb(27, 126, 126);
+}
+
+.calling-left h3{
+    padding-top: 20px;
+}
+
+.calling-left p,
+.calling-left li{
+    font-size: 14px;
+}
+
+.calling-top{
+    /*background: url(image/calling-bg.jpg) center no-repeat ;
+    background-size: cover;*/
+}
+
+.calling-top{
+    background: white;
+    height: fit-content;
+    width: 25vw;
+    align-items: flex-start;
+    flex-grow: 1;
+    margin-top: 15px;
+    padding: 20px;
+    border: 3px solid rgb(27, 126, 126);
+}
+
+.calling-top h4{
+    padding-top: 20px;
+}
+
+.calling-top p,
+.calling-top li{
+    font-size: 15px;
+}
+
+.calling-main{
+    height: 50vh;
+    width: 10vw;
+    margin: 15px;
+    animation: calling 5s ease;
+}
+
+.calling-main button{
+    display: flex;
+    font-size: 15px;
+    padding: 5px 15px;
+    margin: 5px;
+    background: rgb(255, 147, 128);
+    color: black;
+    border-radius: 10px;
+}
+
+.calling-main a{
+   text-decoration: none;
+}
+
+.calling-main button:hover{
+    transform: scale(1.25);
+    transition: 1.25s;
+    background: red;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+#back-to{
+    display: flex;
+    font-size: 15px;
+    padding: 5px 15px;
+    margin: 5px;
+    background: rgb(37, 245, 37);
+    color: black;
+    border-radius: 10px;
+}
+
+
+.live-top{
+    background: white;
+    height: fit-content;
+    width: 25vw;
+    align-items: flex-start;
+    flex-grow: 1;
+    margin-top: 15px;
+    padding: 20px;
+    border: 3px solid rgb(27, 126, 126);
+}
+
+.live-top p{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.live-top h3{
+    padding-top: 1px;
+    padding-bottom: 15px;
+    
+}
+
+
+/*home animation*/
+@keyframes video{
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+
+/*calling animation*/
+@keyframes calling{
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
