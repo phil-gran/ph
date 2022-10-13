@@ -201,11 +201,11 @@ nav ul li:hover ul {
 
 .calling-main button{
     display: flex;
-    font-size: 13px;
+    font-size: 15px;
     padding: 5px 15px;
     margin: 5px;
-    background: tomato;
-    color: white;
+    background: rgb(255, 147, 128);
+    color: black;
     border-radius: 10px;
 }
 
@@ -214,6 +214,8 @@ nav ul li:hover ul {
     transition: 1.25s;
     background: red;
     font-weight: bold;
+    cursor: pointer;
+    color: white;
 }
 
 
