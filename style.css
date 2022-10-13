@@ -12,11 +12,13 @@ body {
     background-blend-mode: screen;
     height: 100vh;
     width: 90vw;
-    margin: 15px;
 }
 nav {
-    width: 90vw;
+    display: flex;
+    width: 99vw;
     height: 60px;
+    justify-content: center;
+    z-index: 1;
 }
 
 nav ul {
@@ -63,11 +65,11 @@ nav ul li a:hover {
     color: red;
     transform: scale(1.15);
     transition: all 0.5s ease;
-    background: white;
+    background: none;
 }
 
 nav ul li ul a:hover {
-    background-color: white;
+    background-color: none;
     color: red;
     border-radius: 5px;
 }
@@ -138,6 +140,83 @@ nav ul li:hover ul {
     color: rgb(27, 126, 126);
 }
 
+
+/*calling team css*/
+.calling-container{
+    display: flex;
+    height: 100vh;
+    width: 97vw;
+    justify-content: center;
+}
+
+.calling-left{
+    height: fit-content;
+    width: 20vw;
+    background: white;
+    margin: 15px;
+    padding: 20px;
+    border: 3px solid rgb(27, 126, 126);
+}
+
+.calling-left h3{
+    padding-top: 20px;
+}
+
+.calling-left p,
+.calling-left li{
+    font-size: 14px;
+}
+
+.calling-top{
+    /*background: url(image/calling-bg.jpg) center no-repeat ;
+    background-size: cover;*/
+}
+
+.calling-top{
+    background: white;
+    height: fit-content;
+    width: 25vw;
+    align-items: flex-start;
+    flex-grow: 1;
+    margin-top: 15px;
+    padding: 20px;
+    border: 3px solid rgb(27, 126, 126);
+    animation: calling 5s ease;
+}
+
+.calling-top h4{
+    padding-top: 20px;
+}
+
+.calling-top p,
+.calling-top li{
+    font-size: 15px;
+}
+
+.calling-main{
+    height: 50vh;
+    width: 15vw;
+    margin: 15px;
+}
+
+.calling-main button{
+    display: flex;
+    font-size: 13px;
+    padding: 5px 15px;
+    margin: 5px;
+    background: tomato;
+    color: white;
+    border-radius: 10px;
+}
+
+.calling-main button:hover{
+    transform: scale(1.25);
+    transition: 1.25s;
+    background: red;
+    font-weight: bold;
+}
+
+
 /*home animation*/
 @keyframes video{
     0% {
@@ -146,5 +225,17 @@ nav ul li:hover ul {
 
     100% {
         transform: translateX(0%);
+    }
+}
+
+
+/*calling animation*/
+@keyframes calling{
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0%);
     }
 }
