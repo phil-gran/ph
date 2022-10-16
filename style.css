@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: rgb(82, 80, 80);
+}
+
+html, body{
+    margin: 0;
+    margin-top: 55px;
+    padding: 0;
+    color: rgb(51, 51, 51);
+    background: url(image/background.jpg) center no-repeat fixed;
+    background-size: cover;
+}
+
+.main-header{
+    display: inline;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    padding: 0;
+    width: 100%;
+    max-height: 110px;
+    background: white;
+    z-index: 100;
+}
+
+.main-header img{
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: none;
+}
+
+.nav ul{
+    text-align: center;
+}
+
+.nav li{
+    display: inline; 
+}
+
+.nav a{
+    display: inline-block;
+    color: rgb(38, 141, 131);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 10px;
+    padding: 5px;
+}
+
+.nav a:hover{
+    background: rgb(228, 220, 220);
+    color: red;
+}
+
+.nav a.active{
+    color: tomato;
+    background: white;
+}
+
+/*content css*/
+.container{
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.container .body{
+    margin-top: 30px;
+}
+
+.content-section{
+    padding: 15px;
+}
+
+.title{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.container p{
+    background: white;
+}
+
+.content-section .video1:hover{
+    transform: scale(1.10);
+    transition: .5s;
+}
+
+/*calling css*/
+.calling{
+    height: 100vh;
+    width: 900px;
+}
+
+.calling .container{
+    margin-top: 80px;
+}
+
+.calling .top{
+    display: flex;
+    height: 50px;
+    width: 950px;
+    justify-content: center;
+    margin: 0 auto;
+    position: fixed;
+}
+
+.calling .top .btn{
+    text-align: center;
+    margin: 10px auto;
+}
+
+.calling .top a{
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 15px;
+    background: rgb(51, 177, 164);
+    color: white;
+    border-radius: 15px;
+}
+
+.calling .top a:hover{
+    background-color: red;
+}
+
+.calling .body{
+    display: flex;
+    height: 750px;
+    width: 950px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.calling .left{
+    width: 300px;
+    height: fit-content;
+    background-color: white;
+    border: 3px solid turquoise;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+.calling .left p,
+.calling .left li{
+    margin: 0;
+    font-size: 14px;
+    padding: 0 25px;
+}
+
+.calling .left span{
+    font-weight: bold;
+    color: rgb(61, 61, 250);
+}
+
+.calling .left h4{
+    margin-bottom: 3px;
+}
+
+.calling .right{
+    width: 680px;
+    height: fit-content;
+    background-color: white;
+    border: 3px solid turquoise;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+.calling .right p,
+.calling .right li{
+    margin: 0;
+    font-size: 14px;
+    padding: 0 25px;
+}
+
+.calling .left h4{
+    margin-bottom: none;
+}
+
+/*Live Link CSS*/
+.live{
+    width: 900px;
+    height: fit-content;
+    padding: 40px 20px 0 20px;
+    margin-left: 15px;
+}
+
+.live .text1{
+    width: 900px;
+    height: fit-content;
+    padding: 30px 30px 0 20px;
+    border: 3px solid rgb(35, 128, 118);
+    border-radius: 15px;
+    background: white;
+} 
+
+/*VM CSS*/
+.vm{
+    width: 900px;
+    height: fit-content;
+    padding: 40px 20px 0 20px;
+    margin-left: 15px;
+}
+
+.vm .text1{
+    width: 900px;
+    height: fit-content;
+    padding: 30px 30px 0 20px;
+    border: 3px solid rgb(35, 128, 118);
+    border-radius: 15px;
+    background: white;
+} 
+
+/*LOC CSS*/
+.loc{
+    width: 900px;
+    height: fit-content;
+    padding: 40px 20px 0 20px;
+    margin-left: 15px;
+}
+
+.loc .text1{
+    width: 900px;
+    height: fit-content;
+    padding: 30px 30px 0 20px;
+    border: 3px solid rgb(35, 128, 118);
+    border-radius: 15px;
+    background: white;
+} 
+
+.vm img:hover{
+    transform: scale(1.4);
+    transition: .5s;
+}
+
+/*TASK CSS*/
+.task{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+}
+
+.task .left{
+    width: 150px;
+    height: fit-content;
+    position: fixed;
+}
+
+.task .left a{
+    display: flex;
+    color: white;
+    background: rgb(50, 177, 164);
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.task .right{
+    width: 700px;
+    height: fit-content;
+    background: white;
+    flex-grow: 1;
+    border: 3px solid rgb(39, 136, 126);
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 150px;
+}
+
+.task .right img:hover{
+    transform: scale(1.6);
+    transition: 1s;
+}
+
+.task .right p{
+    font-size: 13px;
+    margin: 0;
+}
+
+/*TOOLS CSS*/
+.main-image{
+    display: flex;
+    height: 450px;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.image1{
+    height: 370px;
+    width: 350px;
+    background: white;
+    border: 3px solid rgb(44, 151, 141);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.image2{
+    height: 370px;
+    width: 350px;
+    background: white;
+    border: 3px solid rgb(44, 151, 141);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.image3{
+    height: 370px;
+    width: 350px;
+    background: white;
+    border: 3px solid rgb(44, 151, 141);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.image4{
+    height: 370px;
+    width: 350px;
+    background: white;
+    border: 3px solid rgb(44, 151, 141);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.main-image img:hover{
+    transform: scale(2);
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
