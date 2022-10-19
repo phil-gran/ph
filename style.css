@@ -332,6 +332,37 @@ html, body{
     transition: 0.5s;
 }
 
+/*SALES TEAM CSS*/
+.sales{
+    display: flex;
+    height: 500px;
+    width: 1000px;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sales .content{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+}
+
+.sales .content a{
+   color: white;
+   background-color: rgb(5, 116, 104);
+   text-decoration: none;
+   padding: 5px;
+   border-radius: 5px;
+}
+
+.sales .content img:hover{
+   transform: scale(1.05);
+   transition: 0.5s;
+}
+
 
 
 
