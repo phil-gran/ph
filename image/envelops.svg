@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    id="svg2"
+    sodipodi:docname="New document 1"
+    viewBox="0 0 500 435"
+    version="1.1"
+    inkscape:version="0.48.0 r9654"
+  >
+  <title
+      id="title3831"
+    >envelops</title
+  >
+  <defs
+      id="defs4"
+    >
+    <filter
+        id="filter3760"
+        inkscape:collect="always"
+        color-interpolation-filters="sRGB"
+      >
+      <feGaussianBlur
+          id="feGaussianBlur3762"
+          stdDeviation="7.1121505"
+          inkscape:collect="always"
+      />
+    </filter
+    >
+    <filter
+        id="filter3782"
+        inkscape:collect="always"
+        color-interpolation-filters="sRGB"
+      >
+      <feGaussianBlur
+          id="feGaussianBlur3784"
+          stdDeviation="7.8673084"
+          inkscape:collect="always"
+      />
+    </filter
+    >
+  </defs
+  >
+  <sodipodi:namedview
+      id="base"
+      bordercolor="#666666"
+      inkscape:pageshadow="2"
+      inkscape:window-y="-4"
+      pagecolor="#ffffff"
+      inkscape:window-height="712"
+      inkscape:window-maximized="1"
+      inkscape:zoom="1"
+      inkscape:window-x="-4"
+      showgrid="false"
+      borderopacity="1.0"
+      inkscape:current-layer="layer1"
+      inkscape:cx="375"
+      inkscape:cy="211.42857"
+      inkscape:window-width="1280"
+      inkscape:pageopacity="0.0"
+      inkscape:document-units="px"
+  />
+  <g
+      id="layer1"
+      inkscape:label="Layer 1"
+      inkscape:groupmode="layer"
+      transform="translate(0 -617.36)"
+    >
+    <rect
+        id="rect3829"
+        style="opacity:.12683;stroke:#4ce616;stroke-linecap:round;stroke-width:3.0201;fill:#19aeff"
+        ry="34.099"
+        height="431.56"
+        width="496.98"
+        y="619.29"
+        x="1.51"
+    />
+    <g
+        id="g3822"
+        transform="matrix(.48988 0 0 .50004 106.53 524.58)"
+      >
+      <rect
+          id="rect3786"
+          style="stroke-width:0;fill:#009100"
+          ry="11.552"
+          height="266.58"
+          width="459.71"
+          y="457.52"
+          x="160.86"
+      />
+      <path
+          id="rect2985"
+          d="m-38.286 372.94h862.29v453.13h-862.29z"
+          style="filter:url(#filter3782);stroke-width:0;fill:#ccff42"
+          transform="matrix(.5 0 0 .5 195.71 295.34)"
+          inkscape:connector-curvature="0"
+      />
+      <path
+          id="path2990"
+          style="filter:url(#filter3760);stroke-width:0;fill:#009100"
+          d="m-57.143 340.93 897.14 5.72c-79.3 94.33-448.46 312.01-448.46 312.01s-223.48-149.69-448.69-317.72z"
+          sodipodi:nodetypes="cccc"
+          inkscape:connector-curvature="0"
+          transform="matrix(.5 0 0 .5 195.71 295.34)"
+      />
+      <path
+          id="path2988"
+          sodipodi:nodetypes="cccc"
+          style="stroke-width:0;fill:#ccff42"
+          inkscape:connector-curvature="0"
+          d="m168.57 465.81h447.14c-49.648 35.739-221.37 130.29-221.37 130.29s-106.02-59.132-225.77-130.29z"
+      />
+      <path
+          id="path3764"
+          d="m168.57 717.24 222.86-107.14 218.57 101.43"
+          sodipodi:nodetypes="ccc"
+          style="opacity:.12683;stroke:#4ce616;stroke-width:6.3;fill:none"
+          inkscape:connector-curvature="0"
+      />
+    </g
+    >
+    <g
+        id="g3815"
+        transform="matrix(.48988 0 0 .50004 243.7 588.87)"
+      >
+      <rect
+          id="rect3788"
+          ry="11.552"
+          style="stroke-width:0;fill:#b50000"
+          transform="rotate(-15)"
+          height="266.58"
+          width="459.71"
+          y="157.41"
+          x="-423.79"
+      />
+      <path
+          id="path3790"
+          style="filter:url(#filter3782);stroke-width:0;fill:#ff4141"
+          inkscape:connector-curvature="0"
+          d="m-38.286 372.94h862.29v453.13h-862.29z"
+          transform="matrix(.48296 -.12941 .12941 .48296 -376.91 96.063)"
+      />
+      <path
+          id="path3792"
+          style="filter:url(#filter3760);stroke-width:0;fill:#b50000"
+          d="m-57.143 340.93 897.14 5.72c-79.3 94.33-448.46 312.01-448.46 312.01s-223.48-149.69-448.69-317.72z"
+          sodipodi:nodetypes="cccc"
+          inkscape:connector-curvature="0"
+          transform="matrix(.48296 -.12941 .12941 .48296 -376.91 96.063)"
+      />
+      <path
+          id="path3794"
+          sodipodi:nodetypes="cccc"
+          style="stroke-width:0;fill:#ff4141"
+          inkscape:connector-curvature="0"
+          d="m-359.01 267.75 431.9-115.73c-38.703 47.37-180.1 183.14-180.1 183.14s-117.72-29.676-251.8-67.416z"
+      />
+      <path
+          id="path3796"
+          sodipodi:nodetypes="ccc"
+          style="opacity:.12683;stroke:#e43d3d;stroke-width:6.3;fill:none"
+          inkscape:connector-curvature="0"
+          d="m-293.94 510.61 187.53-161.17 237.38 41.4"
+      />
+    </g
+    >
+    <g
+        id="g3808"
+        transform="matrix(.48988 0 0 .50004 320.68 566.02)"
+      >
+      <rect
+          id="rect3798"
+          ry="11.552"
+          style="stroke-width:0;fill:#005c94"
+          transform="rotate(15)"
+          height="266.58"
+          width="459.71"
+          y="566.18"
+          x="-202.9"
+      />
+      <path
+          id="path3800"
+          d="m-38.286 372.94h862.29v453.13h-862.29z"
+          style="filter:url(#filter3782);stroke-width:0;fill:#19aeff"
+          transform="matrix(.48296 .12941 -.12941 .48296 -266.88 346.74)"
+          inkscape:connector-curvature="0"
+      />
+      <path
+          id="path3802"
+          style="filter:url(#filter3760);stroke-width:0;fill:#005c94"
+          d="m-57.143 340.93 897.14 5.72c-79.3 94.33-448.46 312.01-448.46 312.01s-223.48-149.69-448.69-317.72z"
+          sodipodi:nodetypes="cccc"
+          inkscape:connector-curvature="0"
+          transform="matrix(.48296 .12941 -.12941 .48296 -266.88 346.74)"
+      />
+      <path
+          id="path3804"
+          sodipodi:nodetypes="cccc"
+          style="stroke-width:0;fill:#19aeff"
+          inkscape:connector-curvature="0"
+          d="m-337.22 504.37 431.9 115.73c-57.207 21.671-247.55 68.556-247.55 68.556s-87.107-84.558-184.36-184.28z"
+      />
+      <path
+          id="path3806"
+          d="m-402.3 747.23 243-45.81 184.87 154.54"
+          sodipodi:nodetypes="ccc"
+          style="opacity:.12683;stroke:#e43d3d;stroke-width:6.3;fill:none"
+          inkscape:connector-curvature="0"
+      />
+    </g
+    >
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >envelopes</dc:title
+        >
+        <dc:date
+          >2010-12-31T06:15:05</dc:date
+        >
+        <dc:description
+        />
+        <dc:source
+          >https://openclipart.org/detail/102733/envelopes-by-netalloy</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >netalloy</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >email</rdf:li
+            >
+            <rdf:li
+              >envelop</rdf:li
+            >
+            <rdf:li
+              >greeting</rdf:li
+            >
+            <rdf:li
+              >message</rdf:li
+            >
+            <rdf:li
+              >ping</rdf:li
+            >
+            <rdf:li
+              >sms</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>
