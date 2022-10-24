@@ -378,6 +378,29 @@ html, body{
     font-size: 15px;
 }
 
+/*ABOUT CSS*/
+.about-content{
+    background: linear-gradient(to bottom, white, rgb(50, 196, 201));
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.about-content p{
+    background: none;
+}
+
+.footer-content{
+    text-align: center;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, white, rgb(50, 196, 201));
+}
+
+.footer-content a{
+    margin: 0 20px;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px 15px;
+}
 
 
 
