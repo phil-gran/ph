@@ -1,126 +1,107 @@
-<!DOCTYPE HTML5>
-<html lang="eng">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAINING-TechIS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/techislogo.png" type="image/x-icon">
+</head>
 
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>TECH I.S. TRAINING AND DEVELOPMENT</title>
-         <link rel="icon" href="data:image/png;base64,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">
-        <link rel="stylesheet" href="style.css">
+<body>
+    <header class="main-header">
 
-        <style>
-            .container {
-                padding: 20px;
-                margin: 40px;
-                background-color: rgb(252, 255, 225);   
-                border: 3px solid black;
-            }
+        <center><img src="image/techis-banner.png" alt="techis-banner"></center>
 
-        </style>
-    </head>
+        <nav class="nav main-nav">
+            <ul>
+                <li> <a href="index.html">HOME</a> <li>
+                <li> <a href="calling.html">CALLING</a></li>
+                <li> <a href="salesteam.html">SALES</a></li>
+                <li> <a href="task.html">TASK</a> </li>
+                <li> <a href="tools.html">TOOLS</a> </li>
+            </ul>
+        </nav>
+    </header>
 
-    <body>
-        <div>
-            <nav>    
+
+    <section class="container">
+        <div class="calling container">
+            <div class="script-content">
+
+                <h3>OPENING SPIEL</h3>
+                <p>Hello ______. My name is ______. It is nice to meet you. How are you doing today?</p>
+                <p>Today, I’d like to start off by asking you why you are interested in coding and why you’d like to shift your career to the technology sector?</p>
+                <p>Absolutely. You’ve come to the right place. Let me tell you about our program and how it can help you reach your goal.</p>
+
                 
-                <ul>  
-                    <li><img class="img" width="130px" height="35px" src="https://techis.io/assets/img/logo-techis.png" alt="TECH IS LOGO"></li>                
-               
-                    <li><a href="index.html">HOME</a></li>
-                        <li>
-                            <a href="#">PROCESS</a>
-                            <ul> 
-                                <li><a href="salesteam.html">SALES TEAM</a></li>
-                                <li><a href="callingteam.html">CALLING TEAM</a></li>
-                            </ul>
-                        </li>
-                    <li><a href="tools.html">TOOLS</a></li>
-                    <li><a href="task.html">TASK</a></li>
-                    <li><a href="announcement.html">NEWS</a></li>
-                    <li id="about"><a href="about.html">ABOUT</a></li>
-                </ul>
-            </nav>
-        </div>
-        
-        <div class="container">
+                <h3>INTRO</h3>
+                <p>&nbsp;"Our bootcamp is called Tech IS and we’ve been operating for 5 years. Originally the school started in Japan, but We have virtual location in California and India. &nbsp;From day 1 our goal has been to provide real world knowledge that employers are looking for and to guide students through each programming language and through the job search process. Currently we offer two tracks of study: Web Development and Data Science. "</p>
 
-            <center><h1>Presentation Script</h1></center>
-            <br>
 
-            <h3>OPENING SPIEL</h3>
-            <p>Hello ______. My name is ______. It is nice to meet you. How are you doing today?</p>
-            <p>Today, I’d like to start off by asking you why you are interested in coding and why you’d like to shift your career to the technology sector?</p>
-            <p>Absolutely. You’ve come to the right place. Let me tell you about our program and how it can help you reach your goal.</p>
-
-            
-            <br>
-            <h3>INTRO</h3>
-            <p>&nbsp;"Our bootcamp is called Tech IS and we’ve been operating for 5 years. Originally the school started in Japan, but We have virtual location in California and India. &nbsp;From day 1 our goal has been to provide real world knowledge that employers are looking for and to guide students through each programming language and through the job search process. Currently we offer two tracks of study: Web Development and Data Science. "</p>
-
-            <br>
-            <h3>QUESTIONS</h3>
+                <h3>QUESTIONS</h3>
                 <p><li>Just to confirm, you are a US citizen?</li></p>
                 <p><li>Highest educ attainment?</li></p>
-            
-            <br>
-            <h3>WEB DEVELOPMENT</h3>
-            <p>&nbsp;"Ok. If you complete the first track which is called “Web Development”, you will be qualified for jobs as a Full Stack Developer. That is someone who knows how to do both FRONT-END and BACK-END programming. So what is the difference between front and back-end? The front end is what a visitor to a website or app sees (how the icons look, where they are placed, what font is used). This type of programming is frequently called User Interface or User Experience. The back end is a bit more complicated. This is about how the website or app functions. For example, how to make sure the contact form or the login & passwords work.</p>
-            <br>
-            <p>&nbsp;It’s also important to understand that graduating from this track means that you are qualified to not only develop websites, but also apps. These are all the programs you have installed on your phone. Currently, there is a high demand for these kinds of specialists as new mobile games and various apps are being added to the app store daily by the hundreds. Generally entry-level jobs for a Full Stack Developer range around $70,000 and with 1-2 years of experience it increases to about $100,000.</p>
 
-            <br>
-            <h3>DATA SCIENCE</h3>
-            <p>&nbsp;The second track is called Data Science and it will help you land a job as, well…. a Data Scientists. Unbelievable, I know [smile]. For this track, you need a Bachelor’s degree with some experience in college-level math. That is because in this field, math is used to predict future events (like whether a stock will go up or down in price) and to work on Artificial Intelligence. If you choose this path, you will probably wind up working in a field like robotics or for a company such as Tesla. The average salary for an entry-level Data Scientists is around $70,000 and with 1-2 years of industry experience it increases to $110,000.</p>
+                <h3>WEB DEVELOPMENT</h3>
+                <p>&nbsp;"Ok. If you complete the first track which is called “Web Development”, you will be qualified for jobs as a Full Stack Developer. That is someone who knows how to do both FRONT-END and BACK-END programming. So what is the difference between front and back-end? The front end is what a visitor to a website or app sees (how the icons look, where they are placed, what font is used). This type of programming is frequently called User Interface or User Experience. The back end is a bit more complicated. This is about how the website or app functions. For example, how to make sure the contact form or the login & passwords work.</p>
 
-            <br>
-            <h3>GLIDE PATH</h3>
-            <p>&nbsp;"The very first course is one of the most useful programming languages called Python. This block will last a week and it will give you an idea of your day-to-day of our bootcamp. By the end of this 7 day trial period, you will have to decide whether our bootcamp is right for you. If you fall in love with it, as many people do, [smile] then you sign the contract and go on this 6 month journey with us. If for any reason it is not working out, then the worst thing that happened to you is that you learned a new programming language for free.</p>
-
-            <br>
-            <p>&nbsp;If you do decide to join us then you will learn various programming languages and tools in the next 5 months. Month 6 is almost entirely devoted to getting you ready to land a job. You will be creating your portfolio, taking part in mock interviews and reviewing your resume with your mentor.</p>
-
-            <br>
-            <p>&nbsp;Also, as far as getting a job. 95% of our graduates land a job within 8 weeks of graduating. There are several ways we help. First, we work with three large high tech companies that we have an exclusive contract with. If you choose to be placed in one of these three companies then your placement is guaranteed. 100%. We also work with hundreds of other companies like Facebook, Google and HP. And while placement there is not guaranteed, their HR departments are receptive to interviewing our graduates as they’ve hired them in the past and know that they are well prepared. On average, you can expect to have 4-7 interviews per week and land a job within 1-2 months after graduation.</p>
+                <p>&nbsp;It’s also important to understand that graduating from this track means that you are qualified to not only develop websites, but also apps. These are all the programs you have installed on your phone. Currently, there is a high demand for these kinds of specialists as new mobile games and various apps are being added to the app store daily by the hundreds. Generally entry-level jobs for a Full Stack Developer range around $70,000 and with 1-2 years of experience it increases to about $100,000.</p>
 
 
-            <br>
-            <h3>Do you have any questions so far?</h3>
-            <p>&nbsp;What else? Oh, yes. People often ask me how our program is different from others. Firstly, a college degree in programming takes at least 4 years and costs over 100 000 dollars. Our program is only 6 months and doesn’t require payment until you land a job. And why is it only 6 months? Because there is no fluff. We only teach what is absolutely critical to employers. There will be no lessons on the history of computing. [smile]
-                Secondly, our bootcamp is a completely new way to study. There are no set times for classes and we emphasize one-on-one tutoring. So let’s say your assignment is to build a new website like Twitter [show clone of Twitter page]. But you are stuck and the code you’ve written isn’t working. What do you do? You go to our Slack channel and ask for help.</p>
+                <h3>DATA SCIENCE</h3>
+                <p>&nbsp;The second track is called Data Science and it will help you land a job as, well…. a Data Scientists. Unbelievable, I know [smile]. For this track, you need a Bachelor’s degree with some experience in college-level math. That is because in this field, math is used to predict future events (like whether a stock will go up or down in price) and to work on Artificial Intelligence. If you choose this path, you will probably wind up working in a field like robotics or for a company such as Tesla. The average salary for an entry-level Data Scientists is around $70,000 and with 1-2 years of industry experience it increases to $110,000.</p>
 
-            <br>
-            <h3>SHOW SLACK SLIDE AND EXPLAIN SLACK.</h3>
-            <p>&nbsp;So we have this aptitude test that you need to take. Are you available to take that assessment now? Also, can you please share your screen to me while you answer this test? You can use your pen, paper and calculator to answer this assessment</p>
+                <h3>GLIDE PATH</h3>
+                <p>&nbsp;"The very first course is one of the most useful programming languages called Python. This block will last a week and it will give you an idea of your day-to-day of our bootcamp. By the end of this 7 day trial period, you will have to decide whether our bootcamp is right for you. If you fall in love with it, as many people do, [smile] then you sign the contract and go on this 6 month journey with us. If for any reason it is not working out, then the worst thing that happened to you is that you learned a new programming language for free.</p>
 
-            <br>
-            <h3>LEIF APPLICATION</h3>
-            <p>&nbsp;"Ok. So the big question is how much does all of this cost, right? Actually, it costs nothing until you land a job. When you DO land a job, you start paying back the cost of the program $625 per month for 48 months. So in essence, your repayment begins only when you can afford it. In fact, if for whatever reason you lose your job temporarily, the repayment stops until you get back on your feet again. And since it is in our best interest for our alumni to have a high paying job, we will continue providing job support even long after you graduate.
-                So, since the program is bearing the upfront costs, one of the eligibility requirements for entering the bootcamp is the student must have at least a 550 credit score.</p>
+                <p>&nbsp;If you do decide to join us then you will learn various programming languages and tools in the next 5 months. Month 6 is almost entirely devoted to getting you ready to land a job. You will be creating your portfolio, taking part in mock interviews and reviewing your resume with your mentor.</p>
 
-            <br>
-            <h3>DO YOU KNOW IF YOUR CREDIT SCORE IS ABOVE 550?</h3>
-            <p>&nbsp;Ok, so we need to check it right now. The check is free and will not affect your credit score. Since credit scores change monthly, it could have increased significantly since the last time you looked. And if that’s the case, you’d be eligible for the program.</p>
-            <br>
-            <p>&nbsp;In order for us to see if you will be qualified, we need to send you to Leif Application where it will run a soft credit check for your eligibility to the program.</p>
-            <br>
-            <p>&nbsp;Yes, with regards to that one, LEIF is asking for your details  to see if your account exists and if the details are valid, but rest assured that we don't have access to your bank account, your log in details are only for you and we don't know about it. We just want to check as well your eligibility to take the course. And the application itself is 100% fully encrypted it means  even us dont have any idea on your details because right after the result of the checking, your details will automatically deleted.</p>
-            <br>
-            <p>&nbsp;You don't have to worry because it is a soft credit check only and will not harm your credit score. Tech IS just wants to make sure you are eligible with the program.</p>
+                <p>&nbsp;Also, as far as getting a job. 95% of our graduates land a job within 8 weeks of graduating. There are several ways we help. First, we work with three large high tech companies that we have an exclusive contract with. If you choose to be placed in one of these three companies then your placement is guaranteed. 100%. We also work with hundreds of other companies like Facebook, Google and HP. And while placement there is not guaranteed, their HR departments are receptive to interviewing our graduates as they’ve hired them in the past and know that they are well prepared. On average, you can expect to have 4-7 interviews per week and land a job within 1-2 months after graduation.</p>
 
-            <br>
-            <h3>IF THE STUDENT ANSWER WITH  (NO)</h3>
-            <p>&nbsp;Unfortunately, without confirming your eligibility, you will not be able to join the program, as it is one of the requirements. Are you sure you don’t want for me to conduct the check? As I said, it will be free and will not affect your credit score. </p>
-            <br>
+                <h3>Do you have any questions so far?</h3>
+                <p>&nbsp;What else? Oh, yes. People often ask me how our program is different from others. Firstly, a college degree in programming takes at least 4 years and costs over 100 000 dollars. Our program is only 6 months and doesn’t require payment until you land a job. And why is it only 6 months? Because there is no fluff. We only teach what is absolutely critical to employers. There will be no lessons on the history of computing. </p>
 
-            <h3>KICK OFF KICKOFF</h3>
-            <p>&nbsp;Congratulations on being approved!</p>
-            <p>&nbsp;We can now proceed to your kickoff!!</p>
-            <p>&nbsp;I will now give you access to slack and you will receive an invitation to your email./p>
+                <p>Secondly, our bootcamp is a completely new way to study. There are no set times for classes and we emphasize one-on-one tutoring. So let’s say your assignment is to build a new website like Twitter [show clone of Twitter page]. But you are stuck and the code you’ve written isn’t working. What do you do? You go to our Slack channel and ask for help</p>
 
+                <h3>SHOW SLACK SLIDE AND EXPLAIN SLACK.</h3>
+                <p>&nbsp;So we have this aptitude test that you need to take. Are you available to take that assessment now? Also, can you please share your screen to me while you answer this test? You can use your pen, paper and calculator to answer this assessment</p>
+
+                <h3>LEIF APPLICATION</h3>
+                <p>&nbsp;"Ok. So the big question is how much does all of this cost, right? Actually, it costs nothing until you land a job. When you DO land a job, you start paying back the cost of the program $625 per month for 48 months. So in essence, your repayment begins only when you can afford it. In fact, if for whatever reason you lose your job temporarily, the repayment stops until you get back on your feet again. And since it is in our best interest for our alumni to have a high paying job, we will continue providing job support even long after you graduate.</p>
+
+                <p> So, since the program is bearing the upfront costs, one of the eligibility requirements for entering the bootcamp is the student must have at least a 550 credit score.</p>
+
+                <h3>DO YOU KNOW IF YOUR CREDIT SCORE IS ABOVE 550?</h3>
+                <p>&nbsp;Ok, so we need to check it right now. The check is free and will not affect your credit score. Since credit scores change monthly, it could have increased significantly since the last time you looked. And if that’s the case, you’d be eligible for the program.</p>
+
+                <p>&nbsp;In order for us to see if you will be qualified, we need to send you to Leif Application where it will run a soft credit check for your eligibility to the program.</p>
+
+                <p>&nbsp;Yes, with regards to that one, LEIF is asking for your details  to see if your account exists and if the details are valid, but rest assured that we don't have access to your bank account, your log in details are only for you and we don't know about it. We just want to check as well your eligibility to take the course. And the application itself is 100% fully encrypted it means  even us dont have any idea on your details because right after the result of the checking, your details will automatically deleted.</p>
+
+                <p>&nbsp;You don't have to worry because it is a soft credit check only and will not harm your credit score. Tech IS just wants to make sure you are eligible with the program.</p>
+
+                <h3>IF THE STUDENT ANSWER WITH  (NO)</h3>
+                <p>&nbsp;Unfortunately, without confirming your eligibility, you will not be able to join the program, as it is one of the requirements. Are you sure you don’t want for me to conduct the check? As I said, it will be free and will not affect your credit score. </p>
+
+
+                <h3>KICK OFF KICKOFF</h3>
+                <p>&nbsp;Congratulations on being approved!</p>
+                <p>&nbsp;We can now proceed to your kickoff!!</p>
+                <p>&nbsp;I will now give you access to slack and you will receive an invitation to your email./p>
+
+
+            </div>
         </div>
+    </section>
 
 
 
- 
-    </body>
+
+
+
+
+
+</body>
+</html>
